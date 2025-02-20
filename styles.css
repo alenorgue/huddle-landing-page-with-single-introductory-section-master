@@ -2,7 +2,7 @@ body {
     background-color: rgb(103, 75, 175);
     background-image: url('../images/bg-mobile.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     font-family: 'Open Sans', sans-serif;
     color: white;
     padding: 20px;
@@ -103,6 +103,7 @@ button:hover {
     body {
         background-image: url('../images/bg-desktop.svg');
         font-size: 1.2rem;
+        background-size: cover;
     }
     #logo {
         width: 250px;
