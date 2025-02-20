@@ -101,12 +101,14 @@ button:hover {
 @media (min-width: 700px) {
     body {
         background-image: url('../images/bg-desktop.svg');
+        font-size: 1.2rem;
     }
-
+    h1 {font-size: 1.6rem;}
     .main-info {
         display: flex;
         flex-direction: row;
-        gap: 15px;
+        gap: 30px;
+        align-items: center;
     }
 
     .ilustration {
